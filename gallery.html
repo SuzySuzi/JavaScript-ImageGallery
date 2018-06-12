@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen" />
+</head>
+
+<body>
+    <h1>Snapshots</h1>
+    <ul id="imagegallery">
+        <li>
+            <a href="images/cat-1.jpg" title="cat-1-title">
+            	<img src="images/thumbnail_cat-1.jpg" alt="cat-1" height="80">
+            </a>
+        </li>
+        <li>
+            <a href="images/cat-2.jpg" title="cat-2-title">
+            	<img src="images/thumbnail_cat-2.jpg" alt="cat-2" height="80">
+            </a>
+        </li>
+        <li>
+            <a href="images/cat-3.jpg" title="cat-3-title">
+            	<img src="images/thumbnail_cat-3.jpg" alt="cat-3" height="80">
+            </a>
+        </li>
+        <li>
+            <a href="images/cat-4.jpg" title="cat-4-title">
+            	<img src="images/thumbnail_cat-4.jpg" alt="cat-4" height="80">
+            </a>
+        </li>
+        <!--  <li>
+            <a href="images/cat-2.jpg" title="cat-2-title">cat-2</a>
+        </li>
+        <li>
+            <a href="images/cat-3.jpg" title="cat-3-title">cat-3</a>
+        </li>
+        <li>
+            <a href="images/cat-4.jpg" title="cat-4-title">cat-4</a>
+        </li> -->
+    </ul>
+    <img id="placeholder" src="images/cat.jpg" alt="my image gallery " height="380" />
+    <p id="discription">Choose a image.</p>
+    <script src="scripts\showPic.js"></script>
+    <!-- <script src="scripts\addLoadEvent.js"></script> -->
+    <script type="text/javascript">
+    addLoadEvent(prepareGallery());
+    //addLoadEvent(countBodyChildren());
+    </script>
+</body>
+
+</html>
