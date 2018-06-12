@@ -1,0 +1,63 @@
+body {
+    font-family: "Helvetica", "Arial".serif;
+    /*font-family 可以把多个字体名称作为一个“回退”系统来保存。如果浏览器不支持第一个字体，则会尝试下一个。*/
+    color: #333;
+    /*为不同元素设置文本颜色*/
+    background-color: #ccc;
+    /*深灰色；background-color不能继承，默认值是 transparent。如果一个元素没有指定背景色，背景默认透明的，这样其父元素的背景才可见。*/
+    margin: 1em 10%;
+    /*1em=16px*/
+    /*margin 简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值。上右下左*/
+}
+
+
+/*h1 {
+    color: #333;
+    background-color: transparent;
+}*/
+
+a {
+    color: #c60;
+    /* background-color: transparent;*/
+    font-weight: bold;
+    text-decoration: none;
+    /*下划线*/
+}
+
+ul {
+    padding: 0;
+    /*内边距*/
+}
+
+li {
+    float: left;
+    /*左浮动*/
+    padding-left: : 0px;
+    padding-right: 19px;
+    padding-bottom: 1em;
+    padding-top: 0px;
+    list-style: none;
+    /*列表样式*/
+}
+
+img {
+    display: block; 
+    /*显示为块级元素，单独占一行，前后有换行符*/
+    clear: both; 
+    /*清除浮动 - 左右不允许有浮动对象
+}
+
+
+#imagegallery{
+	list-style: none;
+	/*ul - 去掉前面的点*/
+}
+
+#imagegallery li{
+	display: inline; 
+	/*内联排列*/
+}
+
+#imagegallery li a img {
+	border: 0;
+}
